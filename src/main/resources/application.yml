@@ -1,0 +1,22 @@
+server:
+  port: 8081
+#swagger-ui custom path
+springdoc:
+ swagger-ui:
+  path: /swagger-ui.html
+logging:
+  level:
+    org.springframework: DEBUG
+openapi: '3.0.0'
+info:
+  title: "register"
+  description: "Optional multiline or single-line description"
+  version: "0.0.1"
+  servers:
+    url: "http://localhost:8081/"
+    description: "Optional server description"
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+

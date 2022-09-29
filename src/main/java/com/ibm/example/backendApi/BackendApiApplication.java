@@ -1,10 +1,10 @@
 package com.ibm.example.backendApi;
 
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan("com.ibm.example.backendapi")
+
 @SpringBootApplication
 public class BackendApiApplication {
 
